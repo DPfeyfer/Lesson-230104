@@ -78,7 +78,7 @@ public class Main {
         System.out.println("Task 10");
         int a = 2;
         for(int i = 1; i < 11; i++){
-            System.out.println("2 * " + i + " = " + (a*i));
+            System.out.println("2 * " + i + " = " + (a * i));
         }
 
 
