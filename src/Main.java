@@ -34,14 +34,14 @@ public class Main {
 
         //task5
         System.out.println("Task 5");
-        for(int i = 1904; i <= 2096; i = i + 4){
-            System.out.println(i + " year is leap");
+        for(int year = 1904; year <= 2096; year = year + 4){
+            System.out.println(year + " year is leap");
         }
 
 
         //task6
         System.out.println("Task 6");
-        for(int i = 7; i <= 98; i = i + 7) {
+        for(int i = 7; i <= 98; i += 7) {
             System.out.println(i);
         }
 
@@ -70,7 +70,7 @@ public class Main {
         for (int i = 1; i <= 12; i++) {
             total1 = (int) ((double) total1 + ((total1 *0.5) / 100));
             total1 = (total1 + deposit1);
-            System.out.println("Month " + i + " total deposit will be " + total1 + " $");
+            System.out.println("Month " + i + " Total deposit will be " + total1 + " $");
         }
 
 
