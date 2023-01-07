@@ -11,7 +11,7 @@ public class Main {
 
         //task2
         System.out.println("Task 2");
-        for(byte i = 10; i >= 0; i--) {
+        for(byte i = 10; i >= 1; i--) {
             System.out.println(i);
         }
 
