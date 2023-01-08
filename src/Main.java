@@ -67,10 +67,11 @@ public class Main {
 
         //task9
         System.out.println("Task 9");
-        int deposit1 = 50_000;
-        int total1 = 0;
+        double deposit1 = 50_000;
+        double total1 = 0;
+        double percent = 6;
         for (int i = 1; i <= 12; i++) {
-            total1 = (int) ((double) total1 + ((total1 *0.5) / 100));
+            total1 = total1 + ((total1 * (percent / 12)) / 100);
             total1 = (total1 + deposit1);
             System.out.println("Month " + i + " Total deposit will be " + total1 + " $");
         }
@@ -79,7 +80,7 @@ public class Main {
         //task10
         System.out.println("Task 10");
         int a = 2;
-        for(int i = 1; i < 11; i++){
+        for(int i = 0; i < 11; i++){
             System.out.println("2 * " + i + " = " + (a * i));
         }
 
