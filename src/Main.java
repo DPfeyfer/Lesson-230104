@@ -73,7 +73,7 @@ public class Main {
         for (int i = 1; i <= 12; i++) {
             total1 = total1 + ((total1 * (percent / 12)) / 100);
             total1 = (total1 + deposit1);
-            System.out.println("Month " + i + " Total deposit will be " + total1 + " $");
+            System.out.println("Month " + i + " Total deposit will be " +  total1 + " $");
         }
 
 
@@ -82,6 +82,14 @@ public class Main {
         int a = 2;
         for(int i = 0; i < 11; i++){
             System.out.println("2 * " + i + " = " + (a * i));
+        }
+        //task11
+        System.out.println("Task 11");
+        double deposit2 = 520_000;
+        double percentYear = 7.92;
+        for (int i = 1; i <= 12; i++) {
+            deposit2 = deposit2 + ((deposit2 * (percentYear / 12)) / 100);
+            System.out.println("Month " + i + " Total deposit will be " +  deposit2 + " $");
         }
 
 
