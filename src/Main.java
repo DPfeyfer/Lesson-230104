@@ -89,7 +89,8 @@ public class Main {
         double percentYear = 7.92;
         for (int i = 1; i <= 12; i++) {
             deposit2 = deposit2 + ((deposit2 * (percentYear / 12)) / 100);
-            System.out.println("Month " + i + " Total deposit will be " +  deposit2 + " $");
+            System.out.println("Month " + i + " Total deposit will be "
+                    + String.format("%.2f",deposit2) + " $");
         }
 
 
